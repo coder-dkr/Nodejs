@@ -1,0 +1,6 @@
+const add = require('./module1.js')
+const {mul,sub,div} = require('./module2.js')
+console.log(add(3,4))
+console.log(mul(3,4))
+console.log(sub(3,4))
+console.log(div(3,4))
